@@ -78,10 +78,10 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .logo{
-    width: 500px;
+    width: 450px;
     cursor: pointer;
     size: cover;
 }
@@ -217,11 +217,11 @@
 	text-align: center;
 }
 .card i{
-	font-size: 50px;
+	font-size: 25px;
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: lightpink;
+	color: grey;
 
 }
 h5{
@@ -240,6 +240,7 @@ h5{
     color: black;
     font-weight: 600;
     list-style: none;
+    font-size: small;
 }
 li:not(:last-child){
     margin-bottom: 15px;
